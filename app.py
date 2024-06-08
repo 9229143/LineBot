@@ -69,6 +69,7 @@ def handle_message(event):
         "韓國釜山": "推薦景點：釜山水族館、BIFF廣場、松島天空步道、西面地下街、松島海上纜車",
         "韓國濟州島": "推薦景點：ECOLAND森林小火車、濟州東門市場、Mazeland迷宮公園、神話世界主題樂園",
     }
+    
     if msg in questions_answers:
         #print(f"{english_word} 的中文翻譯是：{words_dict[english_word]}")
     
